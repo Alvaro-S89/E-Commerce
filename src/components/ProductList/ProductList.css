@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Masmuseh';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('../../Assets/Font/Masmuseh/Masmuseh.eot');
+    src: url('../../Assets/Font/Masmuseh/Masmuseh.eot?#iefix') format('embedded-opentype'),
+        url('../../Assets/Font/Masmuseh/Masmuseh.woff2') format('woff2'),
+        url('../../Assets/Font/Masmuseh/Masmuseh.woff') format('woff'),
+        url('../../Assets/Font/Masmuseh/Masmuseh.ttf') format('truetype'),
+        url('../../Assets/Font/Masmuseh/Masmuseh.svg#neuehaas') format('svg');
+} 
+
+.productList {
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 5rem;
+    justify-content: center;
+    grid-column-gap: 5rem;
+    background-color: #bc002d;
+}
+
+.titleStore {
+    font-family: "Masmuseh", Sans-serif;
+    font-size: 6em;
+    display: flex;
+    flex-direction: column;
+    text-align: initial;
+}
+
+.titleStore span {
+    height: 6rem;
+}

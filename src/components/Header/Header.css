@@ -1,7 +1,9 @@
 .header {
-    background-color: gray;
+    background-color: #191919;
+    color: #FFFFFF;
     height: 14rem;
     display: flex;
     /* justify-content: center; */
+    justify-content: space-between; /*Alinear bien los elementos */
     align-items: center;
 }
