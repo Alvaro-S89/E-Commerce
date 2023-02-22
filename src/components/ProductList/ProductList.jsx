@@ -3,7 +3,7 @@ import './ProductList.css'
 import { products } from '../../data/product'
 import { ProductCard } from '../ProductCard/ProductCard'
 
-export const ProductList = ({total, setTotalPrice}) => {
+export const ProductList = ({total, setTotalPrice, totalProducts, setTotalProducts}) => {
     return (
         <div className='productList'>
             <div className="titleStore">
@@ -16,7 +16,7 @@ export const ProductList = ({total, setTotalPrice}) => {
         {
         products.map((product) => {
             return(
-                <ProductCard product={product} total={total} setTotalPrice={setTotalPrice}/>
+                <ProductCard product={product} total={total} setTotalPrice={setTotalPrice} totalProducts={totalProducts} setTotalProducts={setTotalProducts}/>
             )
         })
         }

@@ -1,9 +1,10 @@
 import './ProductCard.css'
 import React from 'react'
 
-export const ProductCard = ({product, total, setTotalPrice}) => {
+export const ProductCard = ({product, total, setTotalPrice, totalProducts, setTotalProducts}) => {
     const addToCart = () => {
         setTotalPrice(total + product.price)
+        setTotalProducts(totalProducts+1)
     }
     return (
         <div className="card">

@@ -99,14 +99,3 @@ export const products = [
         id: 14,
     },
 ]
-
-
-
-
-
-
-//Bogu, equipación completa
-//men, protectores de cabeza y hombros
-//kote, protectores de manos, muñecas y antebrazo
-//Tare, protección para la cadera que, además, sirve para colocar el nafuda o zekken, donde cada persona lleva escrito su nombre y dojo, ciudad o país. 
-//Do, protección rígida que protege el torso y el pecho: tradicionalmente se elaboraba con bambú, pero hoy día existen multitud de opciones de plástico.

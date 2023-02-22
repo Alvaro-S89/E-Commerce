@@ -5,6 +5,6 @@ export const Navbar = () => {
     <div className="nav">
         <p>Home</p>
         <p>Store</p> 
-    </div>
+    </div> 
   )
 }
